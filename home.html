@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+    <link rel="stylesheet" href="./home.css" />
+    <script src="./home.js" defer></script>
+    
+</head>
+<body>
+    <h1 style="text-align: center;">Select the Restaurant</h1><br>
+    <div class="slideshow-container">
+        <div class="restaurant slide">
+         <a href="kfc.html"><img src="./kfc.jpg" style="width:100%"></a>
+        </div>
+      
+        <div class="restaurant slide">
+          <a href="mcd.html"><img src="./mcd.jpg" style="width:100%"></a>
+        </div>
+      
+        <div class="restaurant slide">
+          <a href="burgerking.html"><img src="./burgerking.jpg" style="width:100%"></a>
+        </div>
+      
+        
+        <a class="prev" onclick="prevnext(-1)">&#10094;</a>
+        <a class="next" onclick="prevnext(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+</body>
+</html>
